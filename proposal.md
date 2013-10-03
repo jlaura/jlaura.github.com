@@ -1,7 +1,8 @@
 ---
 layout: page
 title: "Proposal"
-description: "A html formatted version of my current working proposal"
+description: "A html formatted version of my current working proposal."
+group: navigation
 ---
 {% include JB/setup %}
 

@@ -2,6 +2,7 @@
 layout: page
 title: "References"
 description: "A categoriezd listing of references exported from a bibtex database."
+group: navigation
 ---
 {% include JB/setup %}
 
