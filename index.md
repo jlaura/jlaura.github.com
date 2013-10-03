@@ -6,6 +6,9 @@ title: Dissertation
 
 This page serves as a unified repository to help organize references and track progress.
 
+##Proposal
+[Proposal](proposal.html)
+
 ## References
 [References Page](ref.html)
     
