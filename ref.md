@@ -53,6 +53,11 @@ Theoretical Gains Through Parallelization
  * Yang, C. and Raskin, R. (2009). Introduction to distributed geographic information processing research. International Journal of Geographical Information Science, 23(5):553–560.
  * Yang, C., Raskin, R., Goodchild, M., and Gahegan, M. (2010). Geospatial Cyberinfras- tructure: Past, present and future. Computers, Environment and Urban Systems, 34(4):264–277.
 
+Geospatial Cyberinfrastructure
+------------------------------
+ * Wang, S. and Armstrong, M. P. (2009). A theoretical approach to the use of cyberinfrastructure in geographical analysis. International Journal of Geographical Information Science, 23(2):169–193.
+ * Yang, C., Raskin, R., Goodchild, M., and Gahegan, M. (2010). Geospatial Cyberinfras- tructure: Past, present and future. Computers, Environment and Urban Systems, 34(4):264–277.
+
 
 GIS
 ---
