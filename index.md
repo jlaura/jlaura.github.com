@@ -7,7 +7,7 @@ title: Dissertation
 This page serves as a unified repository to help organize references and track progress.
 
 ## References
-[References Page]({% page_url ref%})
+[References Page](ref.html)
     
 ## Blog style posts
 <ul class="posts">
