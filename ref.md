@@ -8,7 +8,7 @@ group: navigation
 
 This is a dump of a sorted bibtex database containing the papers I have sourced pertinent to my work.  Formatting errors may exist due to the bibtex to markdown conversion.  
 
-Paper are frequently listed in one or more category as they speak to multiple topics.  For example, a work might have a terrific theoretical benefits slant in the literature review and then provide an algorithm implementation in the methods / results sections.
+Papers are frequently listed in one or more category as they speak to multiple topics.  For example, a work might have a terrific theoretical benefits slant in the literature review and then provide an algorithm implementation in the methods / results sections.
 
 Algorithms / Spatial Analytical Methods
 ---------------------------------------
