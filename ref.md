@@ -6,12 +6,16 @@ group: navigation
 ---
 {% include JB/setup %}
 
+This is a dump of a sorted bibtex database containing the papers I have sourced pertinent to my work.  Formatting errors may exist due to the bibtex to markdown conversion.  
+
+Paper are frequently listed in one or more category as they speak to multiple topics.  For example, a work might have a terrific theoretical benefits slant in the literature review and then provide an algorithm implementation in the methods / results sections.
+
 Algorithms / Spatial Analytical Methods
 ---------------------------------------
  *  Anselin, L. (1995). Local Indicators of Spatial Association-LISA. Geographical Analysis, 27(2).
  *  Anselin, L., Bera, A., Florax, R., and Yoon, M. (1996). Simple diagnostic tests for spatial dependence. Regional Science and Urban Economics, 26:77–104.
  *  Dixon, P. M., El-shaarawi, A. H., and Piegorsch, W. W. (2002). Ripley ’ s K function. In Encyclopedia of Environmetrics, volume 3, pages 1796–1803. John Wiley & Sons, Ltd.
- *  Duque, J. C., Anselin, L., and Rey, S. J. (2012). the Max-P-Regions Problem*. Journal of Regional Science, 52(3):397–419.
+ *  Duque, J. C., Anselin, L., and Rey, S. J. (2012). the Max-P-Regions Problem. Journal of Regional Science, 52(3):397–419.
  *  Duque, J. C., Church, R. L., and Middleton, R. S. (2011). The p-Regions Problem. Geographical Analysis, 43(1):104–126.
  *  Duque, J. C., Ramos, R., and Surinach, J. (2007). Supervised regionalization methods: A survey. International Regional Science Review, 30:195 – 220.
  *  Eds., C., editor (1975). Elements of Spatial Structure: A Quantitative Approach. Cambridge University Press, New York, New York, USA.
@@ -35,7 +39,7 @@ Applied Parallel Algorithm Implementations
  *  Armstrong, M. P. and Densham, P. J. (1992). Domain decomposition for parallel processing of spatial problems. Computers, Environment and Urban Systems, 16(6):497–513.
  *  Cramer, B. and Armstrong, M. P. (1999). An evaluation of domain decom- position strategies for parallel spatial interpolation of surfaces. An International Journal of Theoretical Geography, 31(2):148–168.
  *  Czech, Z., Mikanik, W., and Skinderowicz, R. (2010). Implementing a parallel simulated annealing algorithm. Parallel Processing and Applied Mathematics, 6067:146–155.
- *  Duque, J. C., Anselin, L., and Rey, S. J. (2012). the Max-P-Regions Problem*. Journal of Regional Science, 52(3):397–419.
+ *  Duque, J. C., Anselin, L., and Rey, S. J. (2012). the Max-P-Regions Problem. Journal of Regional Science, 52(3):397–419.
  *  Griffith, D. (1990). SUPERCOMPUTING AND SPATIAL STATISTICS: A RECONNAIS- SANCE. The Professional Geographer, 42(4):481–492.
  *  He, Z., Kraak, M., Huisman, O., Ma, X., and Xiao, J. (2013). Parallel indexing technique for spatio-temporal data. ISPRS Journal of . . . , 78:116–128.
  *  Hodgson, M. (1989). Searching methods for rapid grid interpolation. The Professional Geographer, 41(1):51–61.
