@@ -6,7 +6,8 @@ group: navigation
 ---
 {% include JB/setup %}
 
-Last updated: 10.17.13
+Last updated: **10.17.13**
+
 Most recent papers / chapters are bold.
 
 This is a dump of a sorted bibtex database containing the papers I have sourced pertinent to my work.  Formatting errors may exist due to the bibtex to markdown conversion.  
@@ -35,7 +36,7 @@ Algorithms / Spatial Analytical Methods
 
 
 Applied Parallel Algorithm Implementations
--------------------------------------------
+------------------------------------------
  *  Armstrong, M. and Marciano, R. (1995). Massively parallel processing of spatial statistics. International Journal of Geographical Information Systems, 9(2):169–189.
  *  Armstrong, M., Pavlik, C., and Marciano, R. (1993). Parallel Processing of Spatial Statistics. Computers & Geosciences, 20(2):91–104.
  *  Armstrong, M. P., Cowles, M. K., and Wang, S. (2005). Using a Computational Grid for Geographic Information Analysis: A Reconnaissance. The Professional Geographer, 57(2005):365–375.
@@ -49,7 +50,6 @@ Applied Parallel Algorithm Implementations
  *  Hodgson, M. (1989). Searching methods for rapid grid interpolation. The Professional Geographer, 41(1):51–61.
  * **Harding, T., Healey, R., Hopkins, S., and Dowers, S. (1998). Vector polygon overlay. In Healey, R., Dowers, S., Gittings, B., and Mineter, M., editors, Parallel Processing Algorithms for GIS, chapter 13, pages 265–288. Taylor and Francis, Bristol, P.A.**
  *  **Healey, R., Dowers, S., Gittings, B., and Mineter, M., editors (1998). Parallel Processing Algorithms for GIS. Taylor and Francis, Bristol, P.A.**
-
  *  Hoel, E. and Samet, H. (2003). Data-parallel polygonization. Parallel Computing, 29:1381–1401.
  *  Jacquez, G. M. (1996). A k nearest neighbour test for space-time interaction. Statistics in medicine, 15(17-18):1935–49.
  *  James, T., Rego, C., and Glover, F. (2009). Multistart Tabu Search and Diversification Strategies for the Quadratic Assignment Problem. IEEE Transactions on Systems, Man, and Cybernetics - Part A: Systems and Humans, 39(3):579–596.
