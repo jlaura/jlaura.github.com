@@ -6,6 +6,9 @@ group: navigation
 ---
 {% include JB/setup %}
 
+Last updated: 10.17.13
+Most recent papers / chapters are bold.
+
 This is a dump of a sorted bibtex database containing the papers I have sourced pertinent to my work.  Formatting errors may exist due to the bibtex to markdown conversion.  
 
 Papers are frequently listed in one or more category as they speak to multiple topics.  For example, a work might have a terrific theoretical benefits slant in the literature review and then provide an algorithm implementation in the methods / results sections.
