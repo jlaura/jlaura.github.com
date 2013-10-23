@@ -62,7 +62,7 @@ Applied Parallel Algorithm Implementations
  *  Ram, D., Sreenivas, T., and Subramaniam, K. (1996). Parallel simulated annealing algo- rithms. Journal of parallel and distributed computing, 37:207–212.
  *  Rey, S., Anselin, L., Pahle, R., Kang, X., and Stephens, P. (2013). Parallel Optimal Choropleth Map Classification in PySAL. International Journal of Geographical Information Science.
  *  Rey, S. J. and Anselin, L. (2010). PySAL: A Python library of spatial analytical methods. In Fischer, M.M ; Getis, A., editor, Handbook of Applied Spatial Analysis, pages 175–193. Springer.
- * ** Shook, E., Wang, S., and Tang, W. (2013). A communication-aware framework for parallel spatially explicit agent-based models. International Journal of Geographical Information Science.**
+ * **Shook, E., Wang, S., and Tang, W. (2013). A communication\-aware framework for parallel spatially explicit agent\-based models. International Journal of Geographical Information Science.**
  *  **Sloan, T. and Dowers, S. (1998). Parallel vector data input. In Healey, R., Dowers, S., Gittings, B., and Mineter, M., editors, Parallel Processing Algorithms for GIS, chapter 8, pages 151 – 178. Taylor and Francis, Bristol, P.A.**
  *  Steinbach, M. and Hemmerling, R. (2012). Accelerating batch processing of spatial raster analysis using gpu. Computers and Geosciences, 45:212–220.
  * **Tang, W. (2013). Parallel construction of large circular cartograms using graphics processing units. International Journal of Geographical Information Science, 27(11):2182–2206. **
