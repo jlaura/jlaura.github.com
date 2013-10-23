@@ -45,7 +45,6 @@ Applied Parallel Algorithm Implementations
  *  Cramer, B. and Armstrong, M. P. (1999). An evaluation of domain decom- position strategies for parallel spatial interpolation of surfaces. An International Journal of Theoretical Geography, 31(2):148–168.
  *  Czech, Z., Mikanik, W., and Skinderowicz, R. (2010). Implementing a parallel simulated annealing algorithm. Parallel Processing and Applied Mathematics, 6067:146–155.
  *  Duque, J. C., Anselin, L., and Rey, S. J. (2012). the Max-P-Regions Problem. Journal of Regional Science, 52(3):397–419.
- * **Greening, D. (1990). Parallel simulated annealing techniques. Physica D: Nonlinear Phenomena, 42:293 – 306.**
  *  Griffith, D. (1990). Supercomputing and spatial statistics: a reconnaissance. The Professional Geographer, 42(4):481–492.
  *  He, Z., Kraak, M., Huisman, O., Ma, X., and Xiao, J. (2013). Parallel indexing technique for spatio-temporal data. ISPRS Journal of . . . , 78:116–128.
  *  Hodgson, M. (1989). Searching methods for rapid grid interpolation. The Professional Geographer, 41(1):51–61.
@@ -134,6 +133,7 @@ Parallel Tabu Search Heuristics. INFORMS Journal on Computing, 9(1):61–72.
  *  Czech, Z., Mikanik, W., and Skinderowicz, R. (2010). Implementing a parallel simulated annealing algorithm. Parallel Processing and Applied Mathematics, 6067:146–155.
  *  Glover, F. (1989). Tabu search—Part II. ORSA Journal on computing, 2(1):4.
  *  Glover, F. (1990). Tabu search—Part I. ORSA Journal on computing, 2(1):4.
+ * **Greening, D. (1990). Parallel simulated annealing techniques. Physica D: Nonlinear Phenomena, 42:293 – 306.**
  *  James, T., Rego, C., and Glover, F. (2009a). A cooperative parallel tabu search algo- rithm for the quadratic assignment problem. European Journal of Operational Research, 195(3):810–826.
  *  James, T., Rego, C., and Glover, F. (2009b). Multistart Tabu Search and Diversi- fication Strategies for the Quadratic Assignment Problem. IEEE Transactions on Systems, Man, and Cybernetics - Part A: Systems and Humans, 39(3):579–596.
  *  Kirkpatrick, S., Gelatt, C., and Vecchi, M. (1983). Optimization by Simulated Annealing. Science, (May).
