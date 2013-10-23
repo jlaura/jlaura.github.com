@@ -6,7 +6,7 @@ group: navigation
 ---
 {% include JB/setup %}
 
-Last updated: **10.17.13**
+Last updated: **10.23.13**
 
 Most recent papers / chapters are bold.
 
@@ -45,11 +45,12 @@ Applied Parallel Algorithm Implementations
  *  Cramer, B. and Armstrong, M. P. (1999). An evaluation of domain decom- position strategies for parallel spatial interpolation of surfaces. An International Journal of Theoretical Geography, 31(2):148–168.
  *  Czech, Z., Mikanik, W., and Skinderowicz, R. (2010). Implementing a parallel simulated annealing algorithm. Parallel Processing and Applied Mathematics, 6067:146–155.
  *  Duque, J. C., Anselin, L., and Rey, S. J. (2012). the Max-P-Regions Problem. Journal of Regional Science, 52(3):397–419.
- *  Griffith, D. (1990). SUPERCOMPUTING AND SPATIAL STATISTICS: A RECONNAIS- SANCE. The Professional Geographer, 42(4):481–492.
+ * **Greening, D. (1990). Parallel simulated annealing techniques. Physica D: Nonlinear Phenomena, 42:293 – 306.**
+ *  Griffith, D. (1990). Supercomputing and spatial statistics: a reconnaissance. The Professional Geographer, 42(4):481–492.
  *  He, Z., Kraak, M., Huisman, O., Ma, X., and Xiao, J. (2013). Parallel indexing technique for spatio-temporal data. ISPRS Journal of . . . , 78:116–128.
  *  Hodgson, M. (1989). Searching methods for rapid grid interpolation. The Professional Geographer, 41(1):51–61.
- * **Harding, T., Healey, R., Hopkins, S., and Dowers, S. (1998). Vector polygon overlay. In Healey, R., Dowers, S., Gittings, B., and Mineter, M., editors, Parallel Processing Algorithms for GIS, chapter 13, pages 265–288. Taylor and Francis, Bristol, P.A.**
- *  **Healey, R., Dowers, S., Gittings, B., and Mineter, M., editors (1998). Parallel Processing Algorithms for GIS. Taylor and Francis, Bristol, P.A.**
+ * Harding, T., Healey, R., Hopkins, S., and Dowers, S. (1998). Vector polygon overlay. In Healey, R., Dowers, S., Gittings, B., and Mineter, M., editors, Parallel Processing Algorithms for GIS, chapter 13, pages 265–288. Taylor and Francis, Bristol, P.A.
+ *  Healey, R., Dowers, S., Gittings, B., and Mineter, M., editors (1998). Parallel Processing Algorithms for GIS. Taylor and Francis, Bristol, P.A.
  *  Hoel, E. and Samet, H. (2003). Data-parallel polygonization. Parallel Computing, 29:1381–1401.
  *  Jacquez, G. M. (1996). A k nearest neighbour test for space-time interaction. Statistics in medicine, 15(17-18):1935–49.
  *  James, T., Rego, C., and Glover, F. (2009). Multistart Tabu Search and Diversification Strategies for the Quadratic Assignment Problem. IEEE Transactions on Systems, Man, and Cybernetics - Part A: Systems and Humans, 39(3):579–596.
@@ -61,14 +62,18 @@ Applied Parallel Algorithm Implementations
  *  Ram, D., Sreenivas, T., and Subramaniam, K. (1996). Parallel simulated annealing algo- rithms. Journal of parallel and distributed computing, 37:207–212.
  *  Rey, S., Anselin, L., Pahle, R., Kang, X., and Stephens, P. (2013). Parallel Optimal Choropleth Map Classification in PySAL. International Journal of Geographical Information Science.
  *  Rey, S. J. and Anselin, L. (2010). PySAL: A Python library of spatial analytical methods. In Fischer, M.M ; Getis, A., editor, Handbook of Applied Spatial Analysis, pages 175–193. Springer.
+ * ** Shook, E., Wang, S., and Tang, W. (2013). A communication-aware framework for parallel spatially explicit agent-based models. International Journal of Geographical Information Science.**
  *  **Sloan, T. and Dowers, S. (1998). Parallel vector data input. In Healey, R., Dowers, S., Gittings, B., and Mineter, M., editors, Parallel Processing Algorithms for GIS, chapter 8, pages 151 – 178. Taylor and Francis, Bristol, P.A.**
  *  Steinbach, M. and Hemmerling, R. (2012). Accelerating batch processing of spatial raster analysis using gpu. Computers and Geosciences, 45:212–220.
+ * **Tang, W. (2013). Parallel construction of large circular cartograms using graphics processing units. International Journal of Geographical Information Science, 27(11):2182–2206. **
  *  Wang, S. and Armstrong, M. P. (2003). A quadtree approach to domain decomposition for spatial interpolation in Grid computing environments. Parallel Computing, 29(10):1481– 1504.
  *  Wang, S., Armstrong, M. P., Ni, J., and Liu, Y. (2005). Gisolve: A grid-based prob- lem solving environment for computationally intensive analysis. In Challenges of Large Applications in Distributed Environments. CLADE 2005. Proceedings.
+ * **Wang, S. (2010). A cybergis framework for the synthesis of cyberinfrastructure, gis, and spatial analysis. Annals of the Association of American Geographers, 100(3):535–557.**
  *  Xia, Y., Kuang, L., and Li, X. (2011). Accelerating geospatial analysis on gpus using cuda. Journal of Zhejiang University-SCIENCE C, 12(12):990–999.
  *  Yang, C., Raskin, R., Goodchild, M., and Gahegan, M. (2010). Geospatial Cyberinfras- tructure: Past, present and future. Computers, Environment and Urban Systems, 34(4):264–277.
  *  Yang, C., Wu, H., Huang, Q., Li, Z., and Li, J. (2011). Using spatial principles to optimize distributed computing for enabling the physical science discoveries. Proceedings of the National Academy of Sciences of the United States of America, 108(14):5498–503.
  *  Yin, L., Shaw, S., Wang, D., Carr, E., Berry, M., Louis, G., and Comiskey, J. (2012). A framework of integrating gis and parallel computing for spatial control problems - a case study of wildfire control. International Journal of Geographical Information Science, 26(4):621–641.
+ * **Zhang, J. and You, S. (2013). High-performance quadtree constructions on large- scale geospatial rasters using gpgpu parallel primitives. International Journal of Geographical Information Science, 27(11):2207–2226. **
 
 
 Theoretical Gains Through Parallelization
@@ -79,9 +84,9 @@ Theoretical Gains Through Parallelization
  *  Atkins, D. (2003). Revolutionizing science and engineering through cyberinfrastructure: Re- port of the National Science Foundation blue-ribbon advisory panel on cyberinfrastructure.
  *  Clematis, A., Mineter, M., and Marciano, R. (2003). High performance computing with geographical data. Parallel Computing, 29:1275–1279.
  *  Goodchild, M. (1993). The State of GIS for Environmental Problem Solving. In Goodchild, M., Parks, B., and Steyaert, L., editors, Environmental Modeling with GIS, pages 8–15. Oxford University Press, New York, New York, USA.
- *  **Healey, R., Dowers, S., Gittings, B., and Mineter, M., editors (1998). Parallel Processing Algorithms for GIS. Taylor and Francis, Bristol, P.A.**
+ *  Healey, R., Dowers, S., Gittings, B., and Mineter, M., editors (1998). Parallel Processing Algorithms for GIS. Taylor and Francis, Bristol, P.A.
  *  Rey, S. (2009). Show me the code: spatial analysis and open source. Journal of Geographical Systems, pages 191–207.
- *  **Sawyer, M. (1998). The software environment and standardisation initiatives. In Healey, R., Dowers, S., Gittings, B., and Mineter, M., editors, Parallel Processing Algorithms for GIS, chapter 3, pages 34–57. Taylor and Francis, Bristol, P.A.**
+ *  Sawyer, M. (1998). The software environment and standardisation initiatives. In Healey, R., Dowers, S., Gittings, B., and Mineter, M., editors, Parallel Processing Algorithms for GIS, chapter 3, pages 34–57. Taylor and Francis, Bristol, P.A.
  *  Wang, S. and Armstrong, M. P. (2005). A theory of the spatial computational domain. In Proceedings of the 8th International Conference on GeoComputation.
  *  Wang, S. and Armstrong, M. P. (2009). A theoretical approach to the use of cyberinfrastructure in geographical analysis. International Journal of Geographical Information Science, 23(2):169–193.
  *  Yang, C., Li, W., Xie, J., and Zhou, B. (2008). Distributed geospatial information processing: sharing distributed geospatial resources to support Digital Earth. International Journal of Digital Earth, 1(3):259–278.
@@ -91,11 +96,17 @@ Theoretical Gains Through Parallelization
 
 Geospatial Cyberinfrastructure
 ------------------------------
+ * **Ahearn, S., Icke, I., Datta, R., DeMers, M., Plewe, B., and Skupin, A. (2013). Re- engineering the gis\&t body of knowledge. International Journal of Geographical Information Science, 27(11):2227–2245.** 
  *  Anselin, L. (2012). From spacestate to cybergis: Twenty years of spatial data analysis software. International Regional Science Review, 35(2):131–157.
- *  Wang, S. and Armstrong, M. P. (2009). A theoretical approach to the use of cyberinfrastructure in geographical analysis. International Journal of Geographical Information Science, 23(2):169–193.
  *  Wang, S., Armstrong, M. P., Ni, J., and Liu, Y. (2005). Gisolve: A grid-based prob- lem solving environment for computationally intensive analysis. In Challenges of Large Applications in Distributed Environments. CLADE 2005. Proceedings.
+ *  Wang, S. and Armstrong, M. P. (2009). A theoretical approach to the use of cyberinfrastructure in geographical analysis. International Journal of Geographical Information Science, 23(2):169–193.
+ * **Wang, S. (2010). A cybergis framework for the synthesis of cyberinfrastructure, gis, and spatial analysis. Annals of the Association of American Geographers, 100(3):535–557.**
  *  Wang, S., Wilkins-Dieher, N., and Nyerges, T. (2012). Cybergis - toward synergistic advancement of cyberinfrastructure and giscience: A workshop summary. Journal of Spatial Information Science, (4):125–148.
  *  Yang, C., Raskin, R., Goodchild, M., and Gahegan, M. (2010). Geospatial Cyberinfras- tructure: Past, present and future. Computers, Environment and Urban Systems, 34(4):264–277.
+ * **Wang, S. (2013). Cybergis: blueprint for integrated and scalable geospatial software ecosys- tems. International Journal of Geographical Information Science, 27(11):2119–2121.**
+ * **Wang, S., Anselin, L., Bhaduri, B., Crosby, C., Goodchild, M., Liu, Y., and Nyerges, T. (2013). Cybergis software: a synthetic review and integration roadmap. International Journal of Geographical Information Science, 27(11):2122–2145.**
+
+
 
 GIS
 ---
@@ -153,11 +164,15 @@ General Computer Science \- Parallelization
  *  Jacobs, A. (2009). The pathologies of big data. Communications of the ACM, 256:1–12.
  *  Liddle, D. E. (2006). The Wider Impact of Moore’s Law. Solid-State Circuits Newsletter, IEEE, (September):28–30.
  *  Nickolls, J., Buck, I. A. N., and Garland, M. (2008). Scalable Parallel with CUDA. Queue, 6(2):40–53.
- *  **Sawyer, M. (1998). The software environment and standardisation initiatives. In Healey, R., Dowers, S., Gittings, B., and Mineter, M., editors, Parallel Processing Algorithms for GIS, chapter 3, pages 34–57. Taylor and Francis, Bristol, P.A.**
+ *  Sawyer, M. (1998). The software environment and standardisation initiatives. In Healey, R., Dowers, S., Gittings, B., and Mineter, M., editors, Parallel Processing Algorithms for GIS, chapter 3, pages 34–57. Taylor and Francis, Bristol, P.A.
  *  Schaller, R. (1997). Moore’s law: past, present and future. Spectrum, IEEE.
  *  Stock, K., Pouchet, L.-N., and Sadayappan, P. (2012). Using machine learning to improve
 automatic vectorization. ACM Transactions on Architecture and Code Optimization, 8(4):1–23.
  *  Tan, Y., Gu, X., and Wang, H. (2010). Adaptive system anomaly prediction for large-scale
 hosting infrastructures. 29th ACM SIGACT-SIGOPS symposium on Principles of distirbuted computing. 
  *  van Rossum, G. and Drake, F. (2013). Python Reference Manual.
+
+Classification Methods
+--------------------------
+* **Kwasnik, B. (1999). The role of classification in knowledge representation and discovery. Library Trends, 48(1):22–47.**
 
