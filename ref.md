@@ -53,6 +53,7 @@ Applied Parallel Algorithm Implementations
  *  Hoel, E. and Samet, H. (2003). Data-parallel polygonization. Parallel Computing, 29:1381–1401.
  *  Jacquez, G. M. (1996). A k nearest neighbour test for space-time interaction. Statistics in medicine, 15(17-18):1935–49.
  *  James, T., Rego, C., and Glover, F. (2009). Multistart Tabu Search and Diversification Strategies for the Quadratic Assignment Problem. IEEE Transactions on Systems, Man, and Cybernetics - Part A: Systems and Humans, 39(3):579–596.
+ * **Luo, L., Wong, M., and Leong, L. (2012). Parallel implementation of r-trees on the gpu. In Design Automation Conference (ASP-DAC) 2012 17th Asia and South Pacific.** 
  *  Mineter, M. (2010). A software framework to create vector-topology in parallel gis opera- tions. International Journal of Geographical Information Science, 17(3):203–222.
  *  Mower, J. (1996). Developing parallel procedures for line simplification. International Journal of Geographical Information Systems, 10(6):699–712.
  *  Onbasoglu, E. and Ozdamar, L. (2001). Parallel simulated annealing algo- rithms in global optimization. Journal of Global Optimization, 19(27-50).
@@ -104,6 +105,8 @@ Geospatial Cyberinfrastructure
  *  Yang, C., Raskin, R., Goodchild, M., and Gahegan, M. (2010). Geospatial Cyberinfras- tructure: Past, present and future. Computers, Environment and Urban Systems, 34(4):264–277.
  * **Wang, S. (2013). Cybergis: blueprint for integrated and scalable geospatial software ecosys- tems. International Journal of Geographical Information Science, 27(11):2119–2121.**
  * **Wang, S., Anselin, L., Bhaduri, B., Crosby, C., Goodchild, M., Liu, Y., and Nyerges, T. (2013). Cybergis software: a synthetic review and integration roadmap. International Journal of Geographical Information Science, 27(11):2122–2145.**
+ * **Wright, D. J. and Wang, S. (2011). The emergence of spatial cyberinfrastructure. PNAS, 108(14):5488–5491.**
+
 
 
 
