@@ -71,7 +71,7 @@ Applied Parallel Algorithm Implementations
  *  **Vaughan, J. (1991). A parallel implementation of the douglas-peucker line simplification algorithm. Software, practice, and experience, 21(3):331–336.**
  *  Wang, S. and Armstrong, M. P. (2003). A quadtree approach to domain decomposition for spatial interpolation in Grid computing environments. Parallel Computing, 29(10):1481– 1504.
  *  Wang, S., Armstrong, M. P., Ni, J., and Liu, Y. (2005). Gisolve: A grid-based prob- lem solving environment for computationally intensive analysis. In Challenges of Large Applications in Distributed Environments. CLADE 2005. Proceedings.
- *  **Wang, S., Cowles, M. K., and Armstrong, M. P. (2008). Grid computing of spatial statistics: using the teragrid for gi*(d) analysis. Concurrency and COmputation: Practice and Experience, 20:1697–1720.**
+ *  **Wang, S., Cowles, M. K., and Armstrong, M. P. (2008). Grid computing of spatial statistics: using the teragrid for gi\*(d) analysis. Concurrency and Computation: Practice and Experience, 20:1697–1720.**
  *  Wang, S. (2010). A cybergis framework for the synthesis of cyberinfrastructure, gis, and spatial analysis. Annals of the Association of American Geographers, 100(3):535–557.
  *  Xia, Y., Kuang, L., and Li, X. (2011). Accelerating geospatial analysis on gpus using cuda. Journal of Zhejiang University-SCIENCE C, 12(12):990–999.
  *  **Xie, J., Yang, C., Zhou, B., and Huang, Q. (2010). High-performance computing for the simulation of dust storms. Computers, Environment and Urban Systems, 34(4):278–290.**
