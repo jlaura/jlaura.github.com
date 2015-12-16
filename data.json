@@ -47,5 +47,9 @@
                 "Fundamentals.Models and Tools.GIS.Traverse Planning",
                "Fundamentals.Models and Tools.Algorithms.Data Fusion"]},
     {"name":"Drivers.Human Exploration.ISRU",
-     "imports":[]}
+     "imports":["Derived Products.Topography.Moon.Polar DTM",
+               "Derived Products.Craters.Crater Characterization Studies",
+               "Derived Products.Spatial Data Products.Solar Illumination Maps",
+               "Fundamentals.Models and Tools.Algorithms.Data Fusion",
+               "Fundamentals.Models and Tools.Algorithms.Rock Abundance"]}
 ]
