@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="ocks-org do-not-copy">
 <meta charset="utf-8">
 <head>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -41,7 +41,14 @@
 <div class="row">
     <div class="col-md-8" id="chart"></div>
     <div class="col-md-4" id="textual_representation">
+        <h1>Info</h1>
         <div id="info"></div>
+        <h2>Fundamentals</h1>
+        <div id="fundamentals"></div>
+        <h2>Derived</h1>
+        <div id="derived"></div>
+        <h2>Drivers</h1>
+        <div id="drivers"></div>
         <div
     </div>
 </div>
@@ -75,6 +82,32 @@ var svg = d3.select("#chart").append("svg")
   .append("g")
     .attr("transform", "translate(" + outerRadius * .20 + "," + outerRadius * .57 + ")");
 
+    
+//For the clusters
+var cluster = d3.layout.cluster()
+    .size([height * (1/3), width * (1/3)])
+
+
+
+//Setup the svg to store the figures
+var fundamentals_svg = d3.select("#fundamentals").append("svg")
+    .attr("width", width)
+    .attr("height", 400)
+    .append("g")
+    .attr("transform", "translate(40,0)");
+
+var derived_svg = d3.select("#derived").append("svg")
+    .attr("width", width)
+    .attr("height", 400)
+    .append("g")
+    .attr("transform", "translate(40,0)");
+
+var diagonal = d3.svg.diagonal()
+    .projection(function(d) { return [d.y, d.x]; });
+
+var lookup = {"Derived Products":derived_svg,
+              "Fundamentals":fundamentals_svg}
+    
 // Load the data and display the plot!
 d3.json("data.json", function(nodes) {
   var nodesByName = {},
@@ -118,6 +151,8 @@ d3.json("data.json", function(nodes) {
   var info = d3.select("#info")
       .text(defaultInfo = "Showing " + formatNumber(links.length) + " dependencies among " + formatNumber(nodes.length) + " Derived Products, Fundamentals, and Drivers.");
 
+  var fundamentals = d3.select("#fundamentals")
+    
   // Normally, Hive Plots sort nodes by degree along each axis. However, since
   // this example visualizes a package hierarchy, we get more interesting
   // results if we group nodes by package. We don't need to sort explicitly
@@ -192,11 +227,72 @@ d3.json("data.json", function(nodes) {
 
   // Highlight the node and connected links on mouseover.
   function nodeMouseover(d) {
+      
+    //Update the hive graph
     svg.selectAll(".link").classed("active", function(p) { return p.source === d || p.target === d; });
     d3.select(this).classed("active", true);
     info.text(d.node.name);
-  }
+      
+    //Data massage to get create the cluster data structure
+    imp = d.node.imports
+    arrays = []
+    for (i=0;i < imp.length;i++){
+        arrays[i] = imp[i].split(".");
+    }
+    var root={}, 
+        path, nd, next, i,j, N, M;
 
+    for (i = 0, N=arrays.length; i<N; i++){
+        //for each path in the data array 
+        path = arrays[i];
+        nd = root; //start the path from the root
+
+        for (j=0,M=path.length; j<M; j++){
+            //follow the path through the tree
+            //creating new nodes as necessary
+
+            if (!nd.children){ 
+                //undefined, so create it:
+                nd.children = {}; 
+            //children is defined as an object 
+            //(not array) to allow named keys
+            }
+
+            next = nd.children[path[j]];
+            //find the child node whose key matches
+            //the label of this step in the path
+
+            if (!next) {
+                //undefined, so create
+                next = nd.children[path[j]] = 
+                    {label:path[j]};
+            }
+            nd = next; 
+            // step down the tree before analyzing the
+            // next step in the path.        
+        }    
+
+    }
+    
+    for (i=0;i<2;i++){
+        r = d3.values(root.children)[i];
+
+        function childrenToArray(n){
+            if (n.children) {
+                //this node has children
+                n.children = d3.values(n.children);
+                //convert to array
+                n.children.forEach(childrenToArray);
+            }
+        }
+
+        childrenToArray(r);
+        update(r['label'], r);
+    }
+
+
+  }
+    
   // Clear any highlighted nodes or links.
   function mouseout() {
     svg.selectAll(".active").classed("active", false);
@@ -291,5 +387,35 @@ function degrees(radians) {
   return radians / Math.PI * 180 - 90;
 }
 
-</script>
+function update(key, root){
+    nodes = cluster.nodes(root)
+    links = cluster.links(nodes)
+    
+    oldnodes = lookup[key].selectAll(".node")
+    oldnodes.remove()
+    oldlinks = lookup[key].selectAll(".link")
+    oldlinks.remove()
+    
+    link = lookup[key].selectAll(".link")
+        .data(links)
+        .enter().append("path")
+        .attr("class", "link")
+        .attr("d", diagonal);
 
+    node = lookup[key].selectAll(".node")
+        .data(nodes)
+        .enter().append("g")
+        .attr("class", "node")
+        .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; })
+        
+    node.append("circle")
+            .attr("r",3.5);
+    
+    node.append("text")
+        .attr("dx", function(d) { return d.children ? -8 : 8;})
+        .attr("dy", 16)
+        .style("text-anchor", "middle")
+        .text(function(d) {return d.label; });  
+}
+    
+</script>
